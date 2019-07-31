@@ -1,6 +1,9 @@
 # gth
 Graviton translator's helper
 
+# Usage
+`$ gth <Up-to-date translation file> <Translation file to update>`
+Example: `$ gth english.json french.json`
 # Installation
 To install it, run:
 ```bash
