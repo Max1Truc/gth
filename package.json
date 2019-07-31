@@ -1,0 +1,29 @@
+{
+  "name": "gth",
+  "version": "0.0.0",
+  "description": "Graviton translator's helper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Max1Truc/gth.git"
+  },
+  "keywords": [
+    "graviton",
+    "cli",
+    "translate",
+    "translator",
+    "helper",
+    "program"
+  ],
+  "author": "Max1Truc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Max1Truc/gth/issues"
+  },
+  "homepage": "https://github.com/Max1Truc/gth#readme",
+  "dependencies": {
+    "prompts": "^2.1.0"
+  },
+  "bin": {
+    "gth": "index.js"
+  }
+}
