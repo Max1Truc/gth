@@ -20,9 +20,6 @@
     "url": "https://github.com/Max1Truc/gth/issues"
   },
   "homepage": "https://github.com/Max1Truc/gth#readme",
-  "dependencies": {
-    "prompts": "^2.1.0"
-  },
   "bin": {
     "gth": "index.js"
   }
