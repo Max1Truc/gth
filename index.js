@@ -48,10 +48,10 @@ async function writeJSON(filename, data) {
   var file1 = getJSON(base);
   var file2 = getJSON(branch);
 
-  for (i in file1) {
-    if (!file2[i]) {
-      file2[i] = await readLineAsync(
-        `What is the translation for "${file1[i]}" (${i})? `
+  for (i in file1["strings"]) {
+    if (!file2["strings"][i]) {
+      file2["strings"][i] = await readLineAsync(
+        `What is the translation for "${file1["strings"][i]}" (${i})? `
       );
     }
   }
