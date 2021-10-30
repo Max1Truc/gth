@@ -1,6 +1,12 @@
 # gth
 Graviton translator's helper
 
+```diff
+- NOTE: This is probably not up to date
+-       with how Graviton translates
+-       stuff now
+```
+
 # Usage
 `$ gth <Up-to-date translation file> <Translation file to update>`
 
